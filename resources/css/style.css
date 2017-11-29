@@ -1,3 +1,123 @@
+@fontface{
+  font-family: "BiryaniRegular";
+  src: url("resources/fonts/Biryani-Regular.ttf") format("truetype");
+}
 html{
-  font-family: BiryaniRegular;
-  }
+  font-family: "BiryaniRegular";
+  font-size: 18px;
+  color:black;
+  background-color: white;
+}
+
+header{
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo{
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+.logo img{
+  height: 32px;
+}
+.grey{
+  color: grey;
+}
+nav ul{
+  display:flex;
+  padding-right:16px;
+}
+li{
+  padding: 0 8px;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+}
+.learn img, .about img{
+  width: 854px;
+  padding: 32px 24px;
+}
+.start{
+  width: inherit;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 48px;
+  line-height: 1.2;
+}
+h1{
+  font-size:63px;
+}
+h3{
+  margin: 32px 0;
+  font-size:36px;
+}
+.start h5{
+  width: inherit;
+  padding: 8px 0;
+  text-align: center;
+  background-color: dimgray;
+}
+.about{
+  display: flex;
+  padding-bottom: 32px;
+}
+.highlights{
+  width: 569px;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}
+h2{
+  font-size: 42px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+p{
+  width: 854px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+h6{
+  font-size: 14px;
+  padding-left: 24px;
+  padding-top: 32px;
+}
+.orientation img, .campus img, .guest img{
+  width: 199.15px;
+  padding: 16px 16px;
+}
+.orientation, .campus, .guest{
+  width: 369.85px;
+  display: flex;
+  align-items: center;
+}
+.learning{
+  background-color: whitesmoke;
+}
+.learning h2{
+  text-align: center;
+  padding-top: 32px;
+}
+.courses{
+  width: 1423.33px;
+  padding: 0 40px;
+}
+.software{
+  padding: 32px 32px;
+}
+.software img{
+  height: auto;
+}
+.software h3{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
