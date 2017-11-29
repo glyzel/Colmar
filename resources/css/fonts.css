@@ -1,0 +1,24 @@
+@fontface{
+  font-family: BiryaniBold;
+  src: url(resources/fonts/Biryani-Bold.otf);
+}
+@fontface{
+  font-family: BiryaniDemiBold;
+  src: url(resources/fonts/Biryani-DemiBold.otf);
+}
+@fontface{
+  font-family: BiryaniExtraBold;
+  src: url(resources/fonts/Biryani-ExtraBold.otf);
+}
+@fontface{
+  font-family: BiryaniLight;
+  src: url(resources/fonts/Biryani-Light.otf);
+}
+@fontface{
+  font-family: BiryaniRegular;
+  src: url(resources/fonts/Biryani-Regular.otf);
+}
+@fontface{
+  font-family: BiryaniUltraLight;
+  src: url(resources/fonts/Biryani-UltraLight.otf);
+}
