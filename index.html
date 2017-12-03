@@ -4,6 +4,10 @@
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
     <link href="./resources/css/fonts.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/media.css" tyoe="text/css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+     crossorigin="anonymous">
   <title>COLMARACADEMY</title>
 </head>
 <body>
@@ -13,6 +17,21 @@
     <img src="resources/images/ic-logo.svg">
     <span>COLMAR</span><span class="grey">ACADEMY</span>
   </div>
+<!--Icons for Mobile Screen-->
+<div class="icons">
+  <div class="ic">
+    <img src="resources/images/ic-logo.svg">
+  </div>
+  <div class="ic">
+    <img src="resources/images/ic-on-campus.svg">
+  </div>
+  <div class="ic">
+    <img src="resources/images/ic-online.svg">
+  </div>
+  <div class=ic>
+    <img src="resources/images/ic-login.svg">
+  </div>
+</div>
   <nav>
     <ul>
       <li>On Campus</li>
@@ -35,9 +54,10 @@
   </div>
 </div>
   <!--About the School-->
-  <div class="about">
-    <div class="main">
-      <img src="resources/images/information-main.jpg">
+<div class="about">
+  <div class="main">
+    <img src="resources/images/information-main.jpg">
+    <div class="practice">
       <h2>It doesn't hurt to keep practicing</h2>
       <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam
       et commodo lectus, nec consequat neque. Sed non accumsan urna.
@@ -45,9 +65,10 @@
       dolor consequat, tristique ligula."</p>
       <h6>Emanuel, Sr Strategist at Hiring.com</h6>
     </div>
+  </div>
     <div class="highlights">
       <div class="info">
-        <div>
+        <div class="orientation">
           <img src="resources/images/information-orientation.jpg">
         </div>
         <div class="details">
@@ -57,7 +78,7 @@
         </div>
       </div>
       <div class="info">
-        <div>
+        <div class="campus">
           <img src="resources/images/information-campus.jpg">
         </div>
         <div class="details">
@@ -67,7 +88,7 @@
         </div>
       </div>
       <div class="info">
-        <div>
+        <div class="lecture">
           <img src="resources/images/information-guest-lecture.jpg">
         </div>
         <div class="details">
@@ -77,59 +98,63 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
 
   <!-- Start Learning-->
   <div class="learning">
     <h2>Start learning</h2>
     <div class="courses">
-      <div class="choices">
-        <img src="resources/images/course-software.jpg">
-        <div class="course">
-          <h3>Software Engineering</h3>
-          <h4>COURSES</h4>
-          <h4>Web Development, Mobile Development, iOT, APIs</h4>
+      <div class="batch1">
+        <div class="choices">
+          <img src="resources/images/course-software.jpg">
+          <div class="course">
+            <h3>Software Engineering</h3>
+            <h4>COURSES</h4>
+            <h4>Web Development, Mobile Development, iOT, APIs</h4>
+          </div>
+        </div>
+        <div class="choices">
+          <img src="resources/images/course-computer-art.jpg">
+          <div class="course">
+            <h3>Computer art</h3>
+            <h4>COURSES</h4>
+            <h4>Imaging & Design, Web Design, Motion Graphics & Visual Effects,
+              Computer Animation</h4>
+            </div>
+        </div>
+        <div class="choices">
+          <img src="resources/images/course-software.jpg">
+          <div class="course">
+            <h3>Design</h3>
+            <h4>COURSES</h4>
+            <h4>User Experience Design, User Research, Visual Design</h4>
+          </div>
         </div>
       </div>
-      <div class="choices">
-        <img src="resources/images/course-computer-art.jpg">
-        <div class="course">
-          <h3>Computer art</h3>
-          <h4>COURSES</h4>
-          <h4>Imaging & Design, Web Design, Motion Graphics & Visual Effects
-          Computer Animation</h4>
+      <div class="batch2">
+        <div class="choices">
+          <img src="resources/images/course-data.jpg">
+          <div class="course">
+            <h3>Data</h3>
+            <h4>COURSES</h4>
+            <h4>Data Science, Big Data, SQL, Data Visualization</h4>
+          </div>
         </div>
-      </div>
-      <div class="choices">
-        <img src="resources/images/course-software.jpg">
-        <div class="course">
-          <h3>Design</h3>
-          <h4>COURSES</h4>
-          <h4>User Experience Design, User Research, Visual Design</h4>
+        <div class="choices">
+          <img src="resources/images/course-business.jpg">
+          <div class="course">
+            <h3>Business</h3>
+            <h4>COURSES</h4>
+            <h4>Product Development, Business Development, Startup</h4>
+          </div>
         </div>
-      </div>
-      <div class="choices">
-        <img src="resources/images/course-data.jpg">
-        <div class="course">
-          <h3>Data</h3>
-          <h4>COURSES</h4>
-          <h4>Data Science, Big Data, SQL, Data Visualization</h4>
-        </div>
-      </div>
-      <div class="choices">
-        <img src="resources/images/course-business.jpg">
-        <div class="course">
-          <h3>Business</h3>
-          <h4>COURSES</h4>
-          <h4>Product Development, Business Development, Startup</h4>
-        </div>
-      </div>
-      <div class="choices">
-        <img src="resources/images/course-marketing.jpg">
-        <div class="course">
-          <h3>Marketing</h3>
-          <h4>COURSES</h4>
-          <h4>Analytics, Content Marketing, Mobile Marketing</h4>
+        <div class="choices">
+          <img src="resources/images/course-marketing.jpg">
+          <div class="course">
+            <h3>Marketing</h3>
+            <h4>COURSES</h4>
+            <h4>Analytics, Content Marketing, Mobile Marketing</h4>
+          </div>
         </div>
       </div>
     </div>
@@ -139,9 +164,9 @@
     <h2>Thesis exhibit</h2>
     <div class="exhibit">
       <div class="urban">
-        <video width="854px" height="auto" controls>
+        <video width="854" controls>
           <source src="resources/videos/thesis.mp4" type="video/mp4">
-          </video>
+        </video>
           <h3>Reimagine Urban</h3>
           <p>"Curabitur vitae libero in ipsum portitor consequat.Aliquam et commodo
         lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed
@@ -174,7 +199,7 @@
     <div class="footer">
       <span>&#169; Colmar Academy. All rights reserved</span>
     </div>
-    <div>
+    <div class="footer">
       <span>Terms</span>
       <span>Privacy</span>
     </div>

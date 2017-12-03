@@ -10,7 +10,6 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 .logo{
   display: flex;
@@ -23,6 +22,9 @@ header{
 .grey{
   color: grey;
 }
+.icons{
+  display: none;
+}
 nav ul{
   font-weight:300;
   display:flex;
@@ -31,25 +33,33 @@ nav ul{
 li{
   padding: 0 8px;
 }
-.banner{
-  display: flex;
+.banner {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
   align-items: center;
+  justify-content: flex-start;
   background-color: lightgray;
 }
-.learn img, .main img{
-  width: 854px;
-  padding: 32px 24px;
+.learn, .main{
+  width: 60%;
+  margin-left: 24px;
+  margin-right: 24px;
 }
-.start{
-  width: inherit;
+.learn img {
+  width: 100%;
+  height: auto;
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-right: 48px;
+}
+.start{
+  width: 40%;
+  padding: 32px 24px;
   line-height: 1.2;
 }
 .start h1{
   font-weight: 900;
-  font-size:54px;
+  font-size:63px;
 }
 .start h3{
   margin: 32px 0;
@@ -57,17 +67,26 @@ li{
 }
 .start h5{
   color: white;
-  width: inherit;
   padding: 8px 0;
   text-align: center;
   background-color: dimgray;
 }
 .about{
-  display: flex;
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+}
+.main img{
+  width: 100%;
+  height: auto;
+  padding-top: 32px;
   padding-bottom: 32px;
 }
+.practice{
+  width: 100%;
+}
 .highlights{
-  width: 569px;
+  width: 40%;
   padding-top: 16px;
   padding-bottom: 32px;
   display: flex;
@@ -76,21 +95,16 @@ li{
 h2{
   font-weight: 900;
   font-size: 42px;
-  padding-left: 24px;
   padding-bottom: 24px;
 }
 p{
-  width: 854px;
   letter-spacing: 1px;
-  padding-left: 24px;
-  padding-right: 24px;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.4;
 }
-h6{
+.main h6{
   font-size: 14px;
-  padding-left: 24px;
   padding-top: 32px;
 }
 .info img, .ongoing-exhibit img{
@@ -122,15 +136,23 @@ h6{
   padding: 32px 0;
 }
 .courses{
-  display: inline-block;
-  width: 1423.33px;
-  padding-left: 72px;
-  padding-right: 72px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+.batch1, .batch2{
+  display: inline-flex;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-bottom: 32px;
 }
 .choices{
   width: 30%;
-  display: inline-block;
+  display: block;
+  padding-left: 32px;
+}
+.choices img{
+  width: 100%;
 }
 .course h3{
   font-size: 36px;
@@ -139,11 +161,13 @@ h6{
   padding-bottom: 16px;
 }
 .course{
+  height: 260px;
   background-color: white;
 }
 h4{
   font-size: 27px;
   font-weight: 300;
+  line-height: 1.5;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -168,7 +192,7 @@ footer{
   justify-content: space-between;
   align-items: center;
 }
-span{
+.footer span{
   padding-top: 16px;
   padding-right: 16px;
   padding-bottom: 32px;
