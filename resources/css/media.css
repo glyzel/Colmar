@@ -1,8 +1,9 @@
 @media only screen and (max-width: 480px){
-  .logo span, nav{
+  .logo, .logo img, span, nav{
     display: none;
   }
   .icons{
+    width: 100%;
     height: 32px;
     display: inline-flex;
     align-items: center;
@@ -17,17 +18,25 @@
     width: 100%;
   }
   .start{
-    width: 100%;
+    width: auto;
+  }
+  .start h1{
+    font-size: 54px;
   }
   .main{
     display: none;
   }
   .highlights{
     width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
   }
-  .info{
+  .info {
     display: flex;
     flex-direction: column;
+  }
+  .info img{
+    width: 100%;
   }
 
 }
