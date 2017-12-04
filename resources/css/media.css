@@ -9,8 +9,25 @@
     margin:auto;
     justify-content: space-around;
   }
-  .learn img{
-    width: 60%;
+  .banner{
+    display:flex;
+    flex-direction: column;
+  }
+  .learn{
+    width: 100%;
+  }
+  .start{
+    width: 100%;
+  }
+  .main{
+    display: none;
+  }
+  .highlights{
+    width: 100%;
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
   }
 
 }
