@@ -1,5 +1,5 @@
-@media only screen and (max-width: 480px){
-  .logo, .logo img, span, nav{
+@media only screen and (min-width: 480px) and (max-width: 960px){
+  .logo, .logo img, .logo span, nav{
     display: none;
   }
   .icons{
@@ -17,26 +17,87 @@
   .learn{
     width: 100%;
   }
+  .learn img{
+    padding: 0;
+  }
   .start{
     width: auto;
+    padding: 32px 16px;
+
   }
   .start h1{
-    font-size: 54px;
+    font-size: 60px;
   }
   .main{
     display: none;
   }
-  .highlights{
+  .about .highlights{
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0;
   }
   .info {
     display: flex;
     flex-direction: column;
   }
   .info img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+
+  }
+  .choices{
     width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .choices img{
+    display: none;
+  }
+  h4{
+    display: none;
+  }
+  .batch1, .batch2{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .learning{
+    background-color: inherit;
+  }
+  .course{
+    height: 76px;
+  }
+  .course h3{
+    max-width: 100%;
+    display: block;
+    background-color: lightgray;
+    padding-bottom: 24px;
+    padding-right: 16px;
+    margin:8px 0;
+  }
+  .urban{
+    width: inherit;
+    margin-left:0;
+    padding-bottom: 24px;
+
+  }
+  video{
+    width:100%;
+
+  }
+  .urban h3, .urban p{
+    display: none;
+  }
+  .fisma{
+    display: none;
+  }
+  .footerright{
+    display: none;
+  }
+  .footerleft{
+    padding-top: 16px;
+    padding-left: 16px;
+
   }
 
 }
