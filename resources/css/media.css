@@ -17,38 +17,42 @@
   .learn{
     width: 100%;
   }
-  .learn img{
-    padding: 0;
-  }
   .start{
-    width: auto;
-    padding: 32px 16px;
-
+    display: block;
+    width: 100%;
+    padding: 0px;
   }
   .start h1{
     font-size: 60px;
+    padding-left: 16px;
+  }
+  .start h3{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .start h5{
+    margin-left: 16px;
+    margin-right: 16px;
   }
   .main{
     display: none;
   }
   .about .highlights{
+    display: block;
     width: 100%;
-    padding: 0;
+    padding: 0px;
   }
   .info {
     display: flex;
     flex-direction: column;
   }
   .info img{
-    width: auto;
-    height: auto;
+    display: block;
     max-width: 100%;
-
   }
   .choices{
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 0px;
   }
   .choices img{
     display: none;
@@ -59,7 +63,7 @@
   .batch1, .batch2{
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 0px;
   }
   .learning{
     background-color: inherit;
@@ -72,21 +76,22 @@
     display: block;
     background-color: lightgray;
     padding-bottom: 24px;
-    padding-right: 16px;
-    margin:8px 0;
+    padding-top: 16px;
+    margin:8px 16px;
   }
   .urban{
     width: inherit;
-    margin-left:0;
+    margin:0px;
     padding-bottom: 24px;
 
   }
   video{
     width:100%;
-
+    margin-right: 0px;
   }
   .urban h3, .urban p{
     display: none;
+    margin-right: 0px;
   }
   .fisma{
     display: none;
@@ -97,7 +102,6 @@
   .footerleft{
     padding-top: 16px;
     padding-left: 16px;
-
   }
 
 }

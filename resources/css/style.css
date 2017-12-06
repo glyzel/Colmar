@@ -107,7 +107,7 @@ p{
   padding-top: 32px;
 }
 .info img, .ongoing-exhibit img{
-  width: 199.15px;
+  max-width: 199.15px;
   padding: 16px 16px;
 }
 .info, .ongoing-exhibit{
