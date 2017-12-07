@@ -165,6 +165,7 @@ p{
 .course{
   height: 260px;
   background-color: white;
+  padding-bottom: 24px;
 }
 h4{
   font-size: 27px;
@@ -202,14 +203,12 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 24px;
 }
 .footerleft span, .footerright span{
-  padding-top: 16px;
-  padding-right: 16px;
+  padding-top:16px;
   padding-bottom: 16px;
+  padding-right: 16px;
   font-size: 16px;
   font-weight: 300;
-}
-.footer{
-  padding-left: 24px;
 }
