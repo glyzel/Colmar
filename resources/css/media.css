@@ -33,22 +33,38 @@
   .start h5{
     margin-left: 16px;
     margin-right: 16px;
+    margin-bottom: 32px;
   }
-  .main{
+  .about{
     display: none;
   }
-  .about .highlights{
-    display: block;
-    width: 100%;
-    padding: 0px;
+  .highlights{
+    display: none;
   }
-  .info {
+  .mobile{
+    max-width: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
-  .info img{
+  .orientation img, .campus img, .lecture img{
     display: block;
-    max-width: 100%;
+    width: 100%;
+  }
+  .details{
+    padding-top: 16px;
+    padding-left: 16px;
+  }
+  .orientation .details{
+    padding-bottom: 64px;
+  }
+  .campus .details{
+    padding-bottom: 64px;
+  }
+  .lecture .details{
+    padding-bottom: 32px;
   }
   .choices{
     width: 100%;

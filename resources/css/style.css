@@ -107,7 +107,7 @@ p{
   padding-top: 32px;
 }
 .info img, .ongoing-exhibit img{
-  max-width: 199.15px;
+  width: 199.15px;
   padding: 16px 16px;
 }
 .info, .ongoing-exhibit{
@@ -126,6 +126,9 @@ p{
 }
 .read{
   color: dodgerblue;
+}
+.mobile{
+  display: none;
 }
 .learning{
   background-color: whitesmoke;
